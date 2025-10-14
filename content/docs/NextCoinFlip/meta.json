@@ -1,0 +1,9 @@
+{
+    "title": "NextCoinFlip",
+    "description": "The LifeStealZ plugin",
+    "pages": [
+        "index"
+    ],
+    "defaultOpen": false,
+    "root": true
+}
