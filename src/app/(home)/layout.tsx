@@ -41,7 +41,7 @@ export default function Layout({ children }: { children: ReactNode }) {
           },
           {
             title: 'NextAnnouncers',
-            url: '/NextAnnouncers',
+            url: '/NextAnnouncers/features',
             icon: (
               <img
                 src="/img/lsz.svg"
