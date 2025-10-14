@@ -13,7 +13,7 @@ export default function Layout({ children }: { children: ReactNode }) {
   const sep1: Separator = { type: 'separator', name: 'Introduction' };
   const sep2: Separator = { type: 'separator', name: 'Other Section' };
 
-  let newChildren = originalTree.children.slice();
+  const newChildren = originalTree.children.slice();
 
   newChildren.splice(0, 0, sep1);
 
