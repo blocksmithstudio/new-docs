@@ -41,7 +41,7 @@ export default function Layout({ children }: { children: ReactNode }) {
           },
           {
             title: 'NextAnnouncers',
-            url: '/NextAnnouncers/features',
+            url: '/NextAnnouncers',
             icon: (
               <img
                 src="/img/lsz.svg"
@@ -85,7 +85,7 @@ export default function Layout({ children }: { children: ReactNode }) {
           },
           {
             title: 'NextCollectors',
-            url: '/NextCollectors',
+            url: '/NextCollectors/features',
             icon: (
               <img
                 src="/img/NextCollectors.png"
