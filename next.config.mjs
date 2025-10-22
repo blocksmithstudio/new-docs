@@ -4,7 +4,8 @@ const withMDX = createMDX();
 
 /** @type {import('next').NextConfig} */
 const config = {
-  reactStrictMode: true,
+  reactStrictMode: false,
+  devIndicators: false,
 };
 
 export default withMDX(config);
