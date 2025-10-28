@@ -1,0 +1,9 @@
+{
+  "NextCoinFlip": { "title": "NextCoinFlip", "type": "folder" },
+  "NextCollectors": { "title": "NextCollectors", "type": "folder" },
+  "NextCredits": { "title": "NextCredits", "type": "folder" },
+  "NextGens": { "title": "NextGens", "type": "folder" },
+  "AvatarDonation": { "title": "AvatarDonation", "type": "folder" },
+  "NextAnnouncers": { "title": "NextAnnouncers", "type": "folder" },
+  "PlayerProfiles": { "title": "PlayerProfiles", "type": "folder" }
+}

@@ -8,11 +8,11 @@ const inter = Inter({
 });
 
 export const metadata = {
-    title: 'ZetaPlugins',
+    title: 'Blocksmith',
     icons: {
-        icon: '/favicon.ico',
-        apple: '/favicons/apple-touch-icon.png',
-        shortcut: '/favicons/favicon-96x96.png',
+        icon: '/img/logo.png',
+        apple: '/img/logo.png',
+        shortcut: '/img/logo.png',
     },
 };
 

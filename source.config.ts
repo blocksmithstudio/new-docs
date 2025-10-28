@@ -1,23 +1,14 @@
-import {
-  defineConfig,
-  defineDocs,
-  frontmatterSchema,
-  metaSchema,
-} from 'fumadocs-mdx/config';
+// source.config.ts
+import { defineConfig, defineDocs } from "fumadocs-mdx/config";
 
-// You can customise Zod schemas for frontmatter and `meta.json` here
-// see https://fumadocs.dev/docs/mdx/collections
-export const docs = defineDocs({
-  docs: {
-    schema: frontmatterSchema,
-  },
-  meta: {
-    schema: metaSchema,
-  },
+// v10: return { docs, meta } sekalian
+export const { docs, meta } = defineDocs({
+  dir: "content/docs",
+  // kalau mau, bisa tambah schema/mdxOptions di sini
 });
 
 export default defineConfig({
   mdxOptions: {
-    // MDX options
+    // opsi MDX (opsional)
   },
 });
